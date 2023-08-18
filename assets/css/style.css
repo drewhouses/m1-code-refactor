@@ -23,11 +23,13 @@ body {
     font-size: 48px;
 }
 
+/* Makes letters "seo" light gray in h1 */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Applies to list in nav bar */
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,15 +41,17 @@ body {
 /* Redundant css selector, same as .header div above
    Moved list-style-type line to above selector */
 .header div ul {
+    
 }
 
-.header div ul li {
+/* displaying list inline-block and creating a left margin of 25 pixels */
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 /* Makes sure header links do not turn purple after being clicked
-   Also removes underlines from a elements */
+   Also removes underlines from anchor elements */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -66,22 +70,34 @@ p {
     background-position: center;
 }
 
+/* Makes image float to the left of the text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Makes image float to the right of the text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* 
+Makes the content 75% width of the screen
+Displays the elements in inline-block
+Creates a left margin with width of 20 pixels
+*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*
+right margin width of 20 pixels
+padding around aside element of 20 pixels
+clear determines that the text must come below the floated image
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
