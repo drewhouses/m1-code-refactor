@@ -18,6 +18,8 @@ Used to experiment with a pre-existing webpage
 
 Visit the webpage here at https://drewhouses.github.io/m1-code-refactor/
 
+![image of website](assets/01-html-css-git-homework-demo.png)
+
 ## Badges
 ![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -31,4 +33,5 @@ Visit the webpage here at https://drewhouses.github.io/m1-code-refactor/
 
 ## License
 MIT License
-Copyright (c) 2023 Drew Casas
+Copyright (c) 2023 drewhouses
+
